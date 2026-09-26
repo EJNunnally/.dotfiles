@@ -1,0 +1,33 @@
+[font]
+normal = {
+    family = "NotoSansM Nerd Font Mono", # turns out it's the same as the default lol
+    style = "Regular"
+}
+size = 18
+[cursor.style]
+blinking = "Never"
+
+[window] # if I ever have a good wallpaper...
+opacity = 0.9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
