@@ -7,7 +7,6 @@ The following are included in this repo:
 - alacritty
 - bash
 - neovim
-- slock
 - tmux
 
 ## What is **not** included?
