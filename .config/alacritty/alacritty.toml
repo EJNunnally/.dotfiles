@@ -1,9 +1,8 @@
 [font]
-normal = {
-    family = "NotoSansM Nerd Font Mono", # turns out it's the same as the default lol
-    style = "Regular"
-}
+# turns out it's the same as the default lol 
+normal = { family = "NotoSansM Nerd Font Mono", style = "Regular" }
 size = 18
+
 [cursor.style]
 blinking = "Never"
 
