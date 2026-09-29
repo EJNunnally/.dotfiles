@@ -9,7 +9,7 @@
 
 -- Leader bindings
 vim.keymap.set("n", "<leader>e", "<cmd>Explore<CR>")
-vim.keymap.set("n", "<leader>t", "<cmd>Tex<CR>")
+vim.keymap.set("n", "<leader>t", "<cmd>Tex<CR>") -- new tab
 vim.keymap.set("n", "<leader>r", "<cmd>restart<CR>")
 
 -- {{{ Other bindings
@@ -18,8 +18,12 @@ vim.keymap.set("n", "<C-S-PageDown>", "<cmd>tabmove +1<CR>")
 vim.keymap.set("n", "<C-S-PageUp>", "<cmd>tabmove -1<CR>")
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 -- move lines with familiar Alt/Meta key shortcut, needed : instead of<cmd>
-vim.keymap.set("v", "<M-j>", ":m '>+1<CR>gv=gv")
-vim.keymap.set("v", "<M-k>", ":m '<-2<CR>gv=gv")
+local movedown = ":m '>+1<CR>gv=gv"
+local moveup = ":m '<-2<CR>gv=gv"
+vim.keymap.set("v", "<M-j>", movedown)
+vim.keymap.set("v", "<M-k>", moveup)
+vim.keymap.set("n", "<M-j>", "V" .. movedown)
+vim.keymap.set("n", "<M-k>", "V" .. moveup)
 
 -- movements
 vim.keymap.set("n", "<C-u>", "<C-u>zz") -- centers cursor after move down
