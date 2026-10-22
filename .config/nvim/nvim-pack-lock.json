@@ -16,6 +16,10 @@
     "vague.nvim": {
       "rev": "f9060fdaf7b20f68575d6f8214da6f1cf0c72825",
       "src": "https://github.com/vague-theme/vague.nvim"
+    },
+    "vimtex": {
+      "rev": "bbfa1501287b65e8803d5cc1007db2c2351c4453",
+      "src": "https://github.com/lervag/vimtex"
     }
   }
 }

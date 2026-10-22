@@ -9,10 +9,13 @@
 -- [X] treesitter
 -- [X] colorscheme
 -- [X] lsp
---     [ ] figure out how to make diagnostics easy to read
+--     [ ] figure out how to make diagnostics easy to read (bindings?)
 -- [X] per-language configuration (e.g., ./after/ftplugin/lua.lua is loaded for lua)
 --     [ ] I want a way to put filetype in the status line without plugins
 -- [ ] way to remind myself my custom keybindings (leader h? like awesomewm's help menu)
+-- [ ] modify netrw
+--     [ ] no top bar
+--     [ ] line numbers? for moving around quickly
 
 -- require("erik")
 -- welcome message?
@@ -22,6 +25,7 @@
 function GH(repo) return 'https://github.com/' .. repo end -- for plugins & colors
 -- }}}
 
+-- modules found in lua/
 require("options") -- editor settings
 require("colors") -- colorscheme
 require("bindings") -- key remaps

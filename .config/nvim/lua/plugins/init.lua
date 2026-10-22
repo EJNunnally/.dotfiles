@@ -5,4 +5,5 @@
 require("plugins.packchanged") -- settings before loading any plugins
 require("plugins.treesitter")
 require("plugins.lspconfig")
+require("plugins.vimtex")
 

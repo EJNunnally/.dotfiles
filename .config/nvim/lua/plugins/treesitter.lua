@@ -19,7 +19,7 @@ local parsers = {
   'diff',
   'html',
   'javascript',
-  'latex',
+  'latex', -- may need to comment this for vimtex
   'lua',
   'luadoc',
   'markdown',
